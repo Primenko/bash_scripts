@@ -49,8 +49,8 @@ export PGBIN=/usr/local/pgsql/bin
 export PGPORT=5432
 export PGHOST=localhost
 export PGUSER=postgres
-export PGPASSWORD=benja
-export PGDATABASE=doh_prod_1
+export PGPASSWORD=password
+export PGDATABASE=db_name
 PSQL=${PGBIN}/psql
 SHP2PGSQL=${PGBIN}/shp2pgsql
 cd /gisdata
